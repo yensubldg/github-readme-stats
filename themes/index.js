@@ -362,10 +362,10 @@ const themes = {
     bg_color: "191724",
   },
    "yensubldg":{
-    title_color:"f707ab",
-    icon_color: "2b0828",
-    text_color: "de0dcc",
-    bg_color: "9e8d9d",
+    title_color:"3affde",
+    icon_color: "ff00e9",
+    text_color: "ff005c",
+    bg_color: "202020",
   }
 };
 
