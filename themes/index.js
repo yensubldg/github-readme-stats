@@ -355,18 +355,18 @@ const themes = {
     bg_color: "09131B",
     border_color: "0c1a25",
   },
-  "rose_pine":{
+  rose_pine: {
     title_color: "9ccfd8",
     icon_color: "ebbcba",
     text_color: "e0def4",
     bg_color: "191724",
   },
-   "yensubldg":{
-    title_color:"3affde",
-    icon_color: "ff00e9",
-    text_color: "ff005c",
-    bg_color: "202020",
-  }
+  yensubldg: {
+    title_color: "ab8bb1",
+    icon_color: "619885",
+    text_color: "4CB493",
+    bg_color: "222222",
+  },
 };
 
 module.exports = themes;
