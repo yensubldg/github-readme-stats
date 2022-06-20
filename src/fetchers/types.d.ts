@@ -102,3 +102,12 @@ export type WakaTimeLang = {
   text: string;
   percent: number;
 };
+
+export type InfoData = {
+  name: string;
+  avatarUrl: string;
+  email: string;
+  bio: string;
+  followers: number;
+  createdAt: string;
+};

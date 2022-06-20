@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 const Card = require("../common/Card");
 const I18n = require("../common/I18n");
 const { langCardLocales } = require("../translations");
@@ -24,12 +24,12 @@ const CARD_PADDING = 25;
 /**
  * @param {Lang[]} arr
  */
- const getLongestLang = (arr) =>
- arr.reduce(
-   (savedLang, lang) =>
-     lang.name.length > savedLang.name.length ? lang : savedLang,
-   { name: "", size: null, color: "" },
- );
+const getLongestLang = (arr) =>
+  arr.reduce(
+    (savedLang, lang) =>
+      lang.name.length > savedLang.name.length ? lang : savedLang,
+    { name: "", size: null, color: "" },
+  );
 
 /**
  * @param {{

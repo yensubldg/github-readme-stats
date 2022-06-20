@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 const retryer = require("../common/retryer");
 const { request, MissingParamError } = require("../common/utils");
 

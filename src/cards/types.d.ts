@@ -48,3 +48,13 @@ type WakaTimeOptions = CommonOptions & {
   layout: "compact" | "normal";
   langs_count: number;
 };
+
+type InfoOptions = CommonOptions & {
+  hide_title: boolean;
+  hide_border: boolean;
+  hide: string[];
+  line_height: string;
+  custom_title: string;
+  layout: "compact" | "normal";
+  custom_text: string;
+};
