@@ -45,9 +45,13 @@ async function fetchUser(username) {
     throw new MissingParamError("username", urlExample);
   }
   const variables = { login: username };
-  const token = process.env.GITHUB_TOKEN;
-  const response = await retryer(fetcher, variables, token);
-  return response.data.data.user;
+  let res = await retryer(fetcher, variables);
+  const data = res.data.data;
+  if (data.user) {
+    return data.user;
+  } else {
+    throw new Error("User not found");
+  }
 }
 
 module.exports = fetchUser;
